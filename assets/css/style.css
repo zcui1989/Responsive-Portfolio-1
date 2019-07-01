@@ -10,6 +10,7 @@ header{
     margin: auto;
     width: 960px;
     padding: 30px;
+    position: static;
 }
 h1, ul{
     display: inline;
@@ -49,7 +50,6 @@ li a:hover{
     border-bottom: 10px solid #4AAAA5;
 }
 section{
-    width: auto;
     width: 960px;
     height: 750px;
     display: block;
@@ -185,10 +185,57 @@ footer{
     text-align: center;
     padding: 36px;
     width: auto;
-    /* position: sticky; */
-    /* bottom: 0%; */
 }
 footer a{
     text-decoration: none;
     color: #FFFFFF;
 }
+
+/* Media Queries */
+@media screen and (max-width: 980px){
+   /* Header Section Style */
+    header{
+        width: auto;
+    }
+    h1{
+        padding: 30px;
+        font-size: 1.5em;
+    }
+    /* Main Content Section Style */
+    section{
+        width: 85%;
+        height: 100%;
+        display: inline-block;
+        margin: auto 3%;
+    }
+    #section-content{
+        margin: 2.5% auto;
+        border: 1px solid #CCCCCC;
+        background-color: #FFFFFF;
+        padding: 15px 0px;
+    }
+
+        /* section style for index.html */
+        #short-intro{
+            font-size: 22pt;
+            width: 50%;
+            margin: 5% 10% 0% 0%;
+            text-align: justify;
+        }
+        #about-me-content{
+            margin: auto;
+            width: 90%;
+        }
+
+        /* section style for portfolio.html */
+        .row{
+            width: auto;
+            display: inline-flex;
+            /* flex-wrap: wrap; */
+            flex-direction: column;
+            margin-left: 7%;
+        }
+}
+
+
+
