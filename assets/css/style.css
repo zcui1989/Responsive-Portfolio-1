@@ -227,6 +227,11 @@ footer a{
             width: 90%;
         }
 
+        /* section style for contact.html */
+        input, textarea{
+            margin: 10px auto 15px auto;
+        }
+
         /* section style for portfolio.html */
         .row{
             width: auto;
