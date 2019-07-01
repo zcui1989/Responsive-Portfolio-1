@@ -290,11 +290,15 @@ footer a{
         text-align: center;
         margin: 0px;
         padding: 20px 0px;
+        font-size: 1.3em;
     }
     ul{
         margin: 20px auto;
         width: 100%;
         text-align: center;
+    }
+    ul a{
+        font-size: 1em;
     }
 
     /* Main Content Section Style */
@@ -305,16 +309,18 @@ footer a{
         width: 50%;
         height: 30vh;
         display: block;
-        margin: 5% auto 0% auto;
+        margin: 5% auto -5% auto;
     }
-
+    h2{
+        width: auto;
+    }
         /* section style for index.html */
         #short-intro{
-            /* font-size: 25pt; */
             text-align: center;
             width: 90%;
             margin: auto 2.5%;
             padding: 10px;
+            font-size: 1.5em;
         }
         #about-me-content{
             width: 90%;
@@ -330,8 +336,9 @@ footer a{
             width: 90%;
         }
         .portfolio-container{
-            width: 100%;
+            width: 90%;
             height: 200px;
+            margin: auto;
         }
         .col a, .col span{
             margin: -80px 0px 0px 0px;
